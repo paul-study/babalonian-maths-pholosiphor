@@ -1,4 +1,22 @@
 #dino {
     object-fit: fill;
-    width: 600px;
+    width: 200px;
+    height: 500px;
+    border-color: blueviolet; 
+}
+
+.tutorial {
+    float:right;
+    margin: 200px;
+
+}
+
+.question {
+    float:right;
+}
+
+body {
+    display:flex;
+    flex-direction: row;
+    background-image: repeating-linear-gradient(45deg, yellow, blue 20%)
 }
