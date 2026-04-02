@@ -21,6 +21,15 @@ button{
     font-size: large;
 }
 
+button:hover{
+    background-color: grey;
+    color: aliceblue;
+    padding: 0.5em;
+    border: 0.1rem, solid grey;
+    border-radius: 0.7em;
+    font-size: large;
+}
+
 .w3-sidebar {
     height: 100%;
     width: 200px;
@@ -52,7 +61,7 @@ button{
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #04AA6D;
+  background-color: grey;
   color: white;
 }
 
